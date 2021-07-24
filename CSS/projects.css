@@ -1,0 +1,51 @@
+body{
+    font-size: 1.3em;
+    background-color:navajowhite;
+    
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+.navbar{
+    background-color:black;
+    line-height: 3rem;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+.nav-link{
+    color:blue;
+    margin-right: 0.5rem;
+
+}
+.nav-link:hover{
+    color:limegreen;
+    background:lightcoral;
+}
+a{
+    text-decoration: none;
+
+}
+footer{
+    background-color:rgb(238, 195, 131);
+    text-align: center;
+    color:rgb(221, 18, 18);
+}
+
+footer ul{
+    background-color:rgb(238, 195, 131);
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    
+} 
+footer ul li{
+    justify-content:center;
+    margin-right: 1.9em;
+}
