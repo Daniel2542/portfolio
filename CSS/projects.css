@@ -31,6 +31,59 @@ a{
     text-decoration: none;
 
 }
+main{
+    flex-grow: 1;
+}
+div {
+    display: block;
+}
+.projects {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    background: hsl(0, 2%, 50%);
+    margin-bottom: 25px;
+    font-size: large;
+    font-weight: 600;
+}
+a{
+    text-align: bottom;
+    background: overlay;
+}
+.col-3 {
+    width: 300px;
+    min-height: 300px;
+    margin-right: 3%;
+    border: #030303 1px solid;
+    margin-bottom: 15px;
+}
+.card__cover {
+    height: 150px; 
+    width: 100%;
+}
+.card__content {
+    padding: 5px;
+    flex: 1;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+* {
+    box-sizing: border-box;
+}
 footer{
     background-color:rgb(238, 195, 131);
     text-align: center;

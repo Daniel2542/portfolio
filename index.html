@@ -4,6 +4,7 @@ Author: Daniel Karori   //
 Date: June 2021 //
 License: MIT    //
 //////////////////-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,35 +22,113 @@ License: MIT    //
     <!--Navigation Bar Section-->
     <nav>
     <nav class="navbar">
-    <a href="./index"class="nav-link">Home</a>&nbsp;&nbsp;
+    <a href=""class="nav-link">KARORI</a>&nbsp;&nbsp;
+    <button id="navbar-icon"><i class="fas fa-bars"></i></button>
+    <div class="navbar-collapse">
+    <a href="index.html">Home</a>&nbsp;&nbsp;
       <a href="./projects.html" class="nav-link"><i class="fas fa-tasks"></i>projects</a>&nbsp;&nbsp;
       <a href="./services.html" class="nav-link"><i class="fas fa-cogs"></i>services </a>&nbsp;&nbsp;
       <a href="./about.html"class="nav-link"><i class="fas fa-address-card"></i>about</a>&nbsp;&nbsp;
-      <a href="./blog.html"class="nav-link"><i class="fas fa-blog"></i>my blog</a>&nbsp;&nbsp;
+      <a href="./blog.html"class="nav-link"><i class="fas fa-blog"></i>blog</a>&nbsp;&nbsp;
       <a href="./contact.html"class="nav-link"><i class="fas fa-envelope-open-text"></i>contact</a>&nbsp;&nbsp;
       <a href="https://drive.google.com/file/d/1aCdQG1FUC2dJR2EbrxzQ_texS23-J_dG/view?usp=sharing"class="nav-link"><i class="fas fa-file"></i>Resume</a>
+    </div>
     </nav>
     <hr />
     <hr />
     
     <!--Jumbotron Section-->
 
-    <header>
+    <header class="Jumbotron">
       <img
-        src="images\IMG_20200428_143403.jpg"
+        src="./images/daniel.png"
         alt="My pic"
         width="300"
         height="400"
       />
+      <div>
       <h1>Hello,I am Daniel Karori</h1>
       <p>
         Am a full stack developer specialising in web development, android app
         development and block chain technology.
       </p>
+      </div>
     </header>
     <hr />
     <hr />
 
+    <!--Main Section-->
+    <Main>
+    <a href="projects.html">
+    <section class="featured-projects">
+    <h2 class="text-center">featured projects</h2>
+    <div class="cards-container">
+    <div class="card b box-shadow">
+    <P>Development of a C++ calculator</p>
+    <P>
+    <img
+        src="./images/calc.png"
+        alt="calc"
+        width="300"
+        height="300"
+      />
+      </p>
+    </div>
+    <div class="card b box-shadow">
+    <p>Personal website development</P>
+    <P>
+    <img
+        src="./images/web.png"
+        alt="calc"
+        width="300"
+        height="300"
+      />
+      </p>
+    </div>
+    
+    <div class="card b box-shadow">
+    <p></p>
+    <img
+        src="./images/git.png"
+        alt="calc"
+        width="300"
+        height="300"
+      />
+      </p>
+    
+    </div>
+    </div>
+    </section>
+
+    <section class="testimonials ">
+    <h2 class="text-center">testimonials</h2>
+    <div class="cards-container">
+    <div class="card">
+    <p>Martin Njue</p>
+    <p>Full Stack Developer</p>
+    <p>0790175800</P>
+    </div>
+    <div class="card">
+    <p>Paul Kimeu</p>
+    <p>Software Engineer</p>
+    <p>0712345678</p>
+    </div>
+    <div class="card">
+    <p>Charles Murima</p>
+    <p>Full Stack Developer</p>
+    <p>0705744184</p>
+    </div>
+    </div>
+    </section>
+
+    <section class="faqs">
+    <h2 class="text-centered">frequently asked questions</h2>
+    <div class="cards-container">
+    </div>
+    </section>
+    </main>
+  
+    
     <!--Footer Section-->
     <footer>
       <ul>

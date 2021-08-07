@@ -11,7 +11,7 @@ License: MIT    //
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/contact.css">
-    <script src="./CSS/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="./css/fontawesome.js" crossorigin="anonymous"></script>
     <title>Daniel Karori:Contact</title>
   </head>
   <body>
@@ -27,10 +27,23 @@ License: MIT    //
     </nav>
 <hr />
 <!--Jumbotron Section-->
-    <h1>Drop me a line...</h1>
-    
+
+  <h1>Drop me a line...</h1>
+ 
+  
     <!--main Section-->
-    <form>
+     <main>
+    <div class="box box_shadow">
+    <img
+        src="./images/daniel.png"
+        alt="My pic"
+        width="100"
+        height="100"
+        class="shape"
+      />
+    <div class="card-header text-center"></div>
+    <div class="card-body">
+    <form action="">
     <p>
     Email*
     <br/>
@@ -41,15 +54,19 @@ License: MIT    //
       <br/>
       <input type="Name" name="Name"placeholder="Your name"class="form-input" /><br />
       </P>
+      <div class="row">
       <p>
       Tell:
       <input type="tel" name="code" id="code" size="4" placeholder="+254" class="form-input"/>
       <input type="tel" name="phone" id="phone" size="10" placeholder="07********" class="form-input ml-3"/>
      </p>
+     </div>
      <p>
+      <div class="row">
      Preferred Means:
       <input type="radio" name="contact" id="mobile" />Tel.
       <input type="radio" name="contact" id="mail" />Email<br />
+      </div>
       </p>
       <p>
       Product*
@@ -74,9 +91,14 @@ License: MIT    //
       <input class="btn" type="submit" value="Send Message" />
       </p>
     </form>
+    </div>
+    </div>
+  </div>
+    </main>
     <hr/>
     <!--Footer Section-->
     <footer>
+    <div class="social">
       <ul>
        <li><a href="https://github.com/Daniel2542"><i class="fab fa-github fa-2x"></i></a></li>
         <li>
@@ -87,6 +109,7 @@ License: MIT    //
         <li><a href="https://www.instagram.com/d.a.n.n.y254/"><i class="fab fa-instagram fa-2x"></i></a></li>
         <li><a href="https://twitter.com/DANIEL54911020"><i class="fab fa-twitter fa-2x"></i></a></li>
       </ul>
+      </div>
       <p>
       &copy;2021. All rights reserved.&trade;Daniel Karori
       </p>
